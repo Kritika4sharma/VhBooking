@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+              android:background="@drawable/hp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Rooms"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bbooking"
+        android:onClick="booking" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bcancel"
+        android:layout_marginTop="20dp"
+        android:text="Cancel Booking"
+        android:onClick="cancel" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Status"
+        android:id="@+id/bstatus"
+        android:layout_marginTop="20dp"
+        android:onClick="status" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logOut"
+        android:id="@+id/blogout"
+        android:layout_marginTop="20dp"
+        android:onClick="logout" />
+
+</LinearLayout>
